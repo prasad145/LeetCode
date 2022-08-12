@@ -7,7 +7,7 @@ public:
         {   
             if(mp.find(nums[i] - diff) != mp.end() && mp.find(nums[i] - (2 * diff)) != mp.end())
             {
-                ans++;
+                ans+=1;
             }
             mp[nums[i]]++;
         }
