@@ -3,7 +3,7 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
         map<int, int> freq;
         vector<int> ans;
-        for(int i = 0; i < nums.size();i++)
+        for(int i = 0; i < nums.size(); i++)
         {
             if(freq.find(target - nums[i]) != freq.end())
             {
